@@ -13,7 +13,7 @@
 $( "#citas" ).submit(function( event ) {
 
   $.ajax({
-  	url: 'guardar_cita',
+  	url: 'home/guardar_cita',
   	method: 'post',
   	data: $("#citas").serialize(),
   	beforeSend:function(){

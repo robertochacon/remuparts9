@@ -21,20 +21,20 @@
 		<div class="col-sm-12 col-md-6 col-lg-6 ml-3">
 			<div class="row header_responsive">
 			<div class="col-sm-12 col-md-6 col-lg-6 text-center">
-				<img src="<?php echo base_url('assets/img/logo.png');?>" class="logo" width="180px" height="60">
+				<img src="<?php echo base_url('assets/img/logo.png');?>" class="logo" width="200px" height="70">
 			</div>
 			<div class="col-sm-12 col-md-6 col-lg-6">
 				<label for="btn_menu"><img src="<?php echo base_url('assets/img/menu.png');?>" class="btn_menu" width="50px" height="50"></label>
 			</div>
 			</div>
 		</div>
-		<div class="col-sm-12 col-md-5 col-lg-5" style="font-family:;font-size:20px;">
+		<div class="col-sm-12 col-md-5 col-lg-5" style="font-family:;font-size:18px;">
 			<input type="checkbox" id="btn_menu" class="input_menu" name="">
 			<nav class="nav nav-pills flex-column flex-sm-row menu">
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("home")?>">- Inicio -</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("citas")?>">- Cita -</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("servicios")?>">- Servicios -</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("nosotros")?>">- Nosotros -</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("home")?>">- INICIO -</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("citas")?>">- CITAS -</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("servicios")?>">- SERVICIOS -</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("nosotros")?>">- NOSOTROS -</a>
 			</nav>
 		</div>
 	</div>

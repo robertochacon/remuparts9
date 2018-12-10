@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // $config['base_url'] = 'https://testing-roberto.webcindario.com/';
-$config['base_url'] = 'http://localhost/2018/remuparts/';
+$config['base_url'] = 'http://localhost/2018/works/Remuparts9/';
 
 /*
 |--------------------------------------------------------------------------
