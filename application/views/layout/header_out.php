@@ -23,18 +23,25 @@
 			<div class="col-sm-12 col-md-6 col-lg-6 text-center">
 				<img src="<?php echo base_url('assets/img/logo.png');?>" class="logo" width="200px" height="70">
 			</div>
-			<div class="col-sm-12 col-md-6 col-lg-6">
-				<label for="btn_menu"><img src="<?php echo base_url('assets/img/menu.png');?>" class="btn_menu" width="50px" height="50"></label>
+			<div class="col-sm-12 col-md-6 col-lg-6 encimaMenu">
+				<div style="display:flex;justify-content:space-between;align-items:center;">
+					<div class="text-left">
+						<img src="<?php echo base_url('assets/img/logo.png');?>" class="btn_menu" width="120px" height="50px">
+					</div>
+					<div class="text-right">
+						<label for="btn_menu" style="padding-top:12px;"><img src="<?php echo base_url('assets/img/menu2.png');?>" class="btn_menu" width="50px" height="50px"></label>
+					</div>
+				</div>
 			</div>
 			</div>
 		</div>
-		<div class="col-sm-12 col-md-5 col-lg-5" style="font-family:;font-size:18px;">
+		<div class="col-sm-12 col-md-5 col-lg-5" style="font-size:19px;">
 			<input type="checkbox" id="btn_menu" class="input_menu" name="">
 			<nav class="nav nav-pills flex-column flex-sm-row menu">
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("home")?>">- INICIO -</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("citas")?>">- CITAS -</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("servicios")?>">- SERVICIOS -</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("nosotros")?>">- NOSOTROS -</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("home")?>">INICIO</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("citas")?>">CITAS</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("servicios")?>">SERVICIOS</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("nosotros")?>">NOSOTROS</a>
 			</nav>
 		</div>
 	</div>

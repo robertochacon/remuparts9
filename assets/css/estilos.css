@@ -1,8 +1,14 @@
+
 *{
 	margin:0px;
 	padding:0px;
 	box-sizing:border-box;
+	font-family:arial;
 }
+h1{
+	font-family:Copperplate_Gothic_Bold;
+}
+
 header{
 	width:100%;
 	height:auto;

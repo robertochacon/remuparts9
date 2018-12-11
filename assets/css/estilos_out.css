@@ -1,4 +1,14 @@
-*{box-sizing: border-box;	/*font-family:cursive;*/}
+@font-face{
+	font-family: Copperplate Gothic Bold Regular;
+	src:url(fuentes/Copperplate_Gothic_Bold.ttf);
+}
+
+*{
+	box-sizing: border-box;	/*font-family:cursive;*/
+	font-family:Copperplate_Gothic_Bold;
+	font-weight: bold;
+}
+
 header{
 	background: rgba(0,0,0,.7);
 	box-shadow: 1px 1px 2px black;
@@ -66,11 +76,10 @@ header{
 }
 
 nav a:hover{
-	color: red;
+	color: black;
 	background-color: red;
-	/*border-right:2px solid red;*/
-	transform: scale(1.1);
-	/*box-shadow: 1px 2px 4px red inset;*/
+	/*transform: scale(1.0);*/
+	box-shadow: 1px 2px 4px black;
 	transition: all .5s;
 }
 .redes:hover li a{
@@ -84,12 +93,19 @@ footer{
 }
 
 @media screen and (max-width: 700px){
+	.encimaMenu{
+		z-index: 10;
+		background: black;
+	}
 	h1{
 		font-size: 23px;
 	}
 	header{
 		/*background:rgb(255,255,255,.7);*/
-		background:red;
+		background:black;
+	}
+	.carousel-caption{
+		display: block;
 	}
 	.header_responsive{
 		z-index: 99999;

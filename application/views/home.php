@@ -15,12 +15,12 @@
     <?php foreach ($images as $img => $value) {?>
     <div class="carousel-item <?= ($img == 0) ? 'active' : '' ?>" style="background-image: url('<?= base_url()?>assets/img/slider/<?=$value?>')">
       
-        <div class="carousel-caption d-none d-md-block animated bounceInDown" style="background:rgba(0,0,0,.5);padding:10px;margin-bottom: 200px;">
+        <div class="carousel-caption d-none d-md-block animated bounceInDown" style="background:rgba(0,0,0,.5);padding:10px;margin-bottom: 200px;border-radius: 10px;box-shadow:1px 2px 4px black;">
         	<div style="margin: auto;">
-				<img src="<?php echo base_url('assets/img/logo.png');?>" class="logo" width="220px" height="80">
+				<img src="<?php echo base_url('assets/img/logo.png');?>" class="logo" width="260px" height="100">
 			</div>
 		    <!-- <h1 class="" style="color: red;">Remuparts9</h1> -->
-		    <h4>Nosotros te ayudamos, estamos para servirte.</h4>
+		    <!-- <h4>Nosotros te ayudamos, estamos para servirte.</h4> -->
 		    <br><br><br><br>
 		  </div>
     </div>
