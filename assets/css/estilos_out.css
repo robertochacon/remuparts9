@@ -106,6 +106,7 @@ footer{
 	}
 	.carousel-caption{
 		display: block;
+		opacity: 1;
 	}
 	.header_responsive{
 		z-index: 99999;
@@ -115,7 +116,7 @@ footer{
 		width: 100%;
 		top: -100%;
 		margin-top: -100%;
-		transition: 1s;
+		transition: .4s;
 		color:black;
 		background: black;
 	}
