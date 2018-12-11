@@ -39,9 +39,9 @@
 			<input type="checkbox" id="btn_menu" class="input_menu" name="">
 			<nav class="nav nav-pills flex-column flex-sm-row menu">
 			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("home")?>">INICIO</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("citas")?>">CITAS</a>
-			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("servicios")?>">SERVICIOS</a>
 			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("nosotros")?>">NOSOTROS</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("servicios")?>">SERVICIOS</a>
+			  <a class="flex-sm-fill text-sm-center nav-link text-white" href="<?php echo base_url("citas")?>">CITAS</a>
 			</nav>
 		</div>
 	</div>
